@@ -1,12 +1,101 @@
+body {
+    font-family: Poppins, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    background-color: rgb(230, 230, 230);
+}
 
-/* 
+input {
+    color: black;
+    border: none;
+    font-weight: lighter;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.backBox {
+    display: none;
+}
 
-*/
+#textList.col {
+    text-align: left;
+    padding-left: 10px;
+}
+#textList1.col {
+    text-align: right;
+    padding-left: 10px;
+    color:rgb(141, 141, 190);
+    font-size: smaller;
+    font-style: italic;
+}
+
+h1{
+    font-size: 80px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    #pages {
+      width: 490px;
+    }
+    #pages1 {
+      width: 460px;
+    }
+  }
+
+
+@media screen and (min-width: 767px) and (max-width: 992px) {
+    #pages {
+      width: 680px;
+    }
+    #pages1 {
+      width: 660px;
+    }
+  }
+
+@media screen and (min-width: 993px) and (max-width:1024px) {
+    #pages {
+      width: 950px;
+    }
+    #pages1 {
+      width: 930px;
+    }
+  }
+
+@media screen and (min-width: 1025px) and (max-width:1281px) {
+    #pages {
+      width: 1110px;
+    }
+    #pages1 {
+      width: 1095px;
+    }
+  }
+  
+@media screen and (min-width:1282px) and (max-width:1920px) {
+    #pages {
+      width: 1300px;
+    }
+    #pages1 {
+      width: 1250px;
+    }
+}
+
+
+.lineClass  {
+  text-decoration-line: line-through;
+  color: rgb(58, 156, 71);
+}
+
+#check {
+  color: green;
+}
+
+#check2 {
+  color: rgb(233, 134, 42);
+}
+
+
+#del {
+  color: red;
+}
