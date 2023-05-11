@@ -8,7 +8,7 @@ const Home = () => {
   const [isShown, setIsShown] = useState(-1);
   const [done, setDone] = useState(true)
  
-// define tasks using useEffect //
+// define tasks using useEffect and Fetch //
   useEffect(() => {
     fetch(apiURL)
       .then((result) => {
