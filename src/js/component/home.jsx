@@ -19,7 +19,7 @@ const Home = () => {
       .then(setTask(task))
       .catch((err) => err);
   }, []);
-
+//creating the user using POST //
   const createUser = function () {
     fetch(apiURL, {
       method: "POST",
